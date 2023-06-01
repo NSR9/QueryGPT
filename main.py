@@ -15,7 +15,7 @@ sql_engine = create_engine('sqlite:///:memory:', echo=False)
 
 # Setting up logging and OpenAI API key
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
-openai.api_key = "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"
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 if __name__ == "__main__":
     # Initializing DataProcessor and GPTHandler objects
