@@ -29,7 +29,7 @@ The goal of this project is to make database querying accessible to non-programm
 1. Clone this repository and Navigate to the NLP_to_SQL folder.
 
     ```
-    git clone [https://github.com/username/nl-to-sql.git](https://github.com/NSR9/GPT_Projects.git)
+    git clone [https://github.com/username/nl-to-sql.git](https://github.com/NSR9/QueryGPT.git)
     ```
 2. Install the necessary dependencies:
 
